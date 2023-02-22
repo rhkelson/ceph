@@ -22,7 +22,7 @@ in `Mount CephFS: Prerequisites`_ page.
 
 Is mount helper is present?
 ---------------------------
-``mount.ceph`` helper is installed by Ceph packages. The helper passes the
+``mount.ceph`` helper is installed by Ceph packages (ceph-common). The helper passes the
 monitor address(es) and CephX user keyrings automatically saving the Ceph
 admin the effort to pass these details explicitly while mounting CephFS. In
 case the helper is not present on the client machine, CephFS can still be
